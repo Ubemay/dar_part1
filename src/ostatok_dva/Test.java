@@ -3,7 +3,7 @@ package ostatok_dva;
 import java.util.Scanner;
 
 /*
-Напишите программу для вывода суммы, умножения, вычитания, деления и остатка двух чисел 
+Напишите программу для вывода суммы, умножения, вычитания, деления и остатка двух чисел
  */
 public class Test {
     public static void main(String[] args) {
@@ -26,5 +26,8 @@ public class Test {
             case "/" -> System.out.println("a / b = " + (a / b));
             case "%" -> System.out.println("a % b = " + (a % b));
         }
+
+
+        System.out.println("Temirlan");
     }
 }
